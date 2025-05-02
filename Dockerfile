@@ -12,4 +12,5 @@ RUN pip install --no-cache-dir -r requirement.txt
 COPY app.py .
 
 # Run the script
-CMD ["python", "app.py"]
+ENTRYPOINT  ["python", "app.py"]
+CMD []
